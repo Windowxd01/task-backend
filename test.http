@@ -1,5 +1,5 @@
 ### 1. ทดสอบสร้างงาน
-POST http://localhost:3000/login
+POST https://cpe-task-api-zgb7.onrender.com/login
 Content-Type: application/json
 
 {
@@ -8,11 +8,11 @@ Content-Type: application/json
 }
 
 ### 2. ทดสอบดึงข้อมูล (ก๊อปปี้ _id จากตรงนี้)
-GET http://localhost:3000/tasks
+GET https://cpe-task-api-zgb7.onrender.com/tasks
 
 ### 3. ทดสอบแก้ไข (เอา _id มาต่อท้าย URL)
-PUT http://localhost:3000/tasks/6ad7a4a367f5de86ddb8306c
+PUT https://cpe-task-api-zgb7.onrender.com/tasks/6ad7a4a367f5de86ddb8306c
 
 ### 4. ทดสอบลบ (เอา _id มาต่อท้าย URL)
-DELETE http://localhost:3000/tasks/6ad7a4a367f5de86ddb8306c
+DELETE https://cpe-task-api-zgb7.onrender.com/tasks/6ad7a4a367f5de86ddb8306c
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhY2Y5YzFlZDE5ZWI0YzQ2ODU0NGNkZCIsImlhdCI6MTc5MjYwNDE5NSwiZXhwIjoxNzkyNjA3Nzk1fQ.3evxnicZhgOXdRjJLz1jk1Hr9q1oR2N9u1mZ8y4tDqg
