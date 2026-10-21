@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // นำ Connection String ที่คัดลอกไว้มา ใส่ในเครื่องหมายคำพูดด้านล่างนี้
-const dbURI = process.env.DB_URI;
+const dbURI = process.env.MONGO_URI;
 
 // เริ่มการเชื่อมต่อ
 mongoose.connect(dbURI)
